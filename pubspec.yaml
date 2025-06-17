@@ -1,0 +1,23 @@
+name: turkish_receipt_scanner
+description: A Flutter app to extract financial data from Turkish receipts using OCR.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  tesseract_ocr: ^0.2.0
+  firebase_core: ^1.10.0
+  cloud_firestore: ^3.1.5
+  path_provider: ^2.0.11
+  csv: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
